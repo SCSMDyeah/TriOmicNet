@@ -1,4 +1,4 @@
-#TriOmicNet: A Novel Multi-layer Network Diffusion Approach Integrating Three Types of Scores to Identify Cancer Driver Genes
+**TriOmicNet: A Novel Multi-layer Network Diffusion Approach Integrating Three Types of Scores to Identify Cancer Driver Genes**
 
 You can directly run TriOmicNet.R, as the data import from the data folder, along with the reading of DE_Score.R, construct_layer.R, and random_walk.R, has already been written in the code. The following 5 steps are the main steps of TriOmicNet, and you can refer to Figure 1 in the manuscript for better understanding:
 
