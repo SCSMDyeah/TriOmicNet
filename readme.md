@@ -107,25 +107,6 @@ Rscript code/TriOmicNet.R
 
 This command runs the core TriOmicNet pipeline using the corresponding input files provided in the repository. The resulting output table can be used to reproduce the final driver-gene prioritization analysis reported in the manuscript.
 
-## Reproducibility
-
-To improve reproducibility, this repository provides:
-
-- the main TriOmicNet analysis script
-- the helper scripts used in each stage of the workflow
-- the input datasets used for the three cancer cohorts
-- the biological network resources required by the method
-
-The repository documentation has been updated to include:
-
-- software requirements
-- repository structure
-- input data description
-- executable workflow command
-- output description corresponding to the manuscript results
-- clarification that the current repository reflects the analyses described in the revised manuscript
-
-The repository is intended to provide the materials needed to reproduce the main analyses reported in the manuscript.
 
 ## Notes
 
