@@ -66,7 +66,8 @@ The expression matrix is processed and filtered before downstream analysis. If M
 
 ### Step 2. Multilayer network construction
 
-The multilayer network is constructed using mutation data, biological interaction resources, and differential expression information.
+The multilayer network is constructed using mutation data, biological interaction resources, and differential expression information. This step is executed automatically by the main script through
+code/construct_layer.R and does not require a separate command.
 
 ### Step 3. Score calculation
 
