@@ -6,7 +6,7 @@ TriOmicNet is a multi-layer network diffusion framework for cancer driver-gene i
 2. regulatory potential score; and
 3. multi-network diffusion score.
 
-The three component scores are standardized and integrated by singular value decomposition (SVD) to produce the final `TriOmicNetScore`.
+The three component scores are standardized and integrated by singular value decomposition (SVD) to produce the final.
 
 ## Workflow
 
@@ -194,16 +194,12 @@ Random walk with restart is performed on four biological interaction networks:
 - CPDB; and
 - MULTINET.
 
-The revised script loads CPDB and MULTINET in separate environments. This is necessary because the original `.RData` files may both store their adjacency matrix under the internal object name `PPI`; separate loading prevents one network from overwriting another.
-
 The four network scores are integrated using their mean score and a cross-network consistency coefficient:
 
 ```r
 consistency_score <- min_score / max_score
 multi_network_score <- mean_score * consistency_score
 ```
-
-The TNI calculation uses all STRING edges and the actual network size. It no longer uses a hard-coded value such as `7686`, and the corrected implementation writes the result to `TNI` rather than to an undefined `ECC` object.
 
 ### Step 5: SVD integration
 
